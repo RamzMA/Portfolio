@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #333;
+  background-color: #f2f2f2;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar_logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.navbar {
+  padding: 10px;
+  background: linear-gradient(to bottom right, #98f0aa, #6fff8c);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar_menu {
+  display: flex;
+  list-style: none;
+  text-align: center;
+}
+
+.navbar_item {
+  height: 80px;
+}
+
+.navbar_item a {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  height: 100%;
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.navbar_item a:hover {
+  color: #6fff8c;
+}
+
+#Socials a {
+  background-color: #6fff8c;
+  border-radius: 100px;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+/* Homepage */
+.pictureOneHome {
+  display: flex;
+  justify-content: center;
+}
+
+.Title {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.homePic1 {
+  height: auto;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.homePic {
+  height: auto;
+  width: 100%;
+  max-width: 600px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pictureTwoThreeFourHome {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.Text {
+  width: 100%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.Text h1 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.Text p {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/*Messages*/
+.Title.Messages{
+  margin-top: 5rem;
+}
+
+.imageForMessages{
+  display: flex;
+  justify-content: center;
+}
+
+.imageMessage{
+  width: 600px;
+  border-radius: 10px;
+}
+
+/*Sleep page*/
+.Title.Sleep{
+  margin-top: 5rem;
+}
+
+.imageForSleep{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.imageSleep{
+  width: 600px;
+  border-radius: 10px;
+}
+
+/*Schedule page*/
+.Title.Schedule{
+  margin-top: 5rem;
+}
+
+.imageForSchedule{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.imageSchedule{
+  width: 600px;
+  border-radius: 10px;
+}
+
+/*Exercise page*/
+.Title.Exercise{
+  margin-top: 5rem;
+}
+
+.imageForExercise{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.imageExercise{
+  width: 600px;
+  border-radius: 10px;
+}
+
+/*Work page*/
+.Title.Work{
+  margin-top: 5rem;
+}
+
+.imageForWork{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.imageWork{
+  width: 600px;
+  border-radius: 10px;
+}
+
+/*Steps page*/
+.Title.Steps{
+  margin-top: 5rem;
+}
+
+.imageForSteps{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.imageSteps{
+  width: 1200px;
+  border-radius: 10px;
+}
+
+/*login page*/
+.Title.Login{
+  margin-top: 5rem;
+}
+
+.imageForWork{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.imageLogin{
+  width: 1200px;
+  border-radius: 10px;
+}
+
+
+.buttonsToTry{
+  display: flex;
+  justify-content: center;
+}
+.buttonsToTry a{
+  margin-top: 8rem;
+  background-color: #04c62b;
+  border: none;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.buttonsToTry a:hover{
+  background-color: #039e22;
+  transform: translateY(-5px);
+  transition: 500ms;
+}
