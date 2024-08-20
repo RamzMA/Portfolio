@@ -15,15 +15,15 @@ html {
 
 /* Navbar */
 .navbar_logo {
-  width: 60px;
-  height: 60px;
+  width: 4vw;
+  height: 4vw;
   border-radius: 50%;
 }
 
 .navbar {
-  padding: 10px;
+  padding: 1vh;
   background: linear-gradient(to bottom right, #98f0aa, #6fff8c);
-  height: 80px;
+  height: 8vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,18 +31,18 @@ html {
   position: sticky;
   top: 0;
   z-index: 999;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.5vh 1vw rgba(0, 0, 0, 0.2);
 }
 
 .navbar__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
+  height: 8vh;
   width: 100%;
-  max-width: 1300px;
+  max-width: 90vw;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 2vw;
 }
 
 .navbar_menu {
@@ -52,13 +52,13 @@ html {
 }
 
 .navbar_item {
-  height: 80px;
+  height: 8vh;
 }
 
 .navbar_item a {
   display: flex;
   align-items: center;
-  padding: 0 15px;
+  padding: 0 1.5vw;
   height: 100%;
   text-decoration: none;
   color: black;
@@ -74,7 +74,7 @@ html {
   border-radius: 100px;
   color: #fff;
   font-weight: bold;
-  padding: 5px 10px;
+  padding: 0.5vh 1vw;
 }
 
 /* Homepage */
@@ -86,192 +86,193 @@ html {
 .Title {
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-top: 4vh;
+  margin-bottom: 2vh;
 }
 
 .homePic1 {
   height: auto;
   width: 100%;
-  max-width: 1200px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 80vw;
+  margin-bottom: 2vh;
+  border-radius: 1vw;
+  box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.1);
 }
 
 .homePic {
   height: auto;
   width: 100%;
-  max-width: 600px;
-  margin: 10px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 40vw;
+  margin: 2vh;
+  border-radius: 1vw;
+  box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.1);
 }
 
 .pictureTwoThreeFourHome {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 0.5vw;
 }
 
 .Text {
   width: 100%;
-  max-width: 1200px;
-  margin: 2rem auto;
-  padding: 20px;
+  max-width: 80vw;
+  margin: 4vh auto;
+  padding: 2vh;
   background: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 1vw;
+  box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.1);
   font-size: 1rem;
   line-height: 1.6;
 }
 
 .Text h1 {
-  margin-bottom: 10px;
+  margin-bottom: 1vh;
   color: #333;
 }
 
 .Text p {
-  margin-bottom: 10px;
+  margin-bottom: 1vh;
   color: #555;
 }
 
 /*Messages*/
-.Title.Messages{
-  margin-top: 5rem;
+.Title.Messages {
+  margin-top: 10vh;
 }
 
-.imageForMessages{
+.imageForMessages {
   display: flex;
   justify-content: center;
 }
 
-.imageMessage{
-  width: 1200px;
-  border-radius: 10px;
+.imageMessage {
+  width: 80vw;
+  border-radius: 1vw;
 }
 
 /*Sleep page*/
-.Title.Sleep{
-  margin-top: 5rem;
+.Title.Sleep {
+  margin-top: 10vh;
 }
 
-.imageForSleep{
+.imageForSleep {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 1vw;
 }
 
-.imageSleep{
-  width: 800px;
-  border-radius: 10px;
+.imageSleep {
+  width: 53vw;
+  border-radius: 1vw;
 }
 
 /*Schedule page*/
-.Title.Schedule{
-  margin-top: 5rem;
+.Title.Schedule {
+  margin-top: 10vh;
 }
 
-.imageForSchedule{
+.imageForSchedule {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 1vw;
   flex-wrap: wrap;
 }
 
-.imageSchedule{
-  width: 800px;
-  border-radius: 10px;
+.imageSchedule {
+  width: 53vw;
+  border-radius: 1vw;
 }
 
 /*Exercise page*/
-.Title.Exercise{
-  margin-top: 5rem;
+.Title.Exercise {
+  margin-top: 10vh;
 }
 
-.imageForExercise{
+.imageForExercise {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 1vw;
 }
 
-.imageExercise{
-  width: 1300px;
-  border-radius: 10px;
+.imageExercise {
+  width: 86vw;
+  border-radius: 1vw;
 }
 
 /*Work page*/
-.Title.Work{
-  margin-top: 5rem;
+.Title.Work {
+  margin-top: 10vh;
 }
 
-.imageForWork{
+.imageForWork {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 1vw;
   flex-wrap: wrap;
 }
 
-.imageWork{
-  width: 800px;
-  border-radius: 10px;
+.imageWork {
+  width: 53vw;
+  border-radius: 1vw;
 }
 
 /*Steps page*/
-.Title.Steps{
-  margin-top: 5rem;
+.Title.Steps {
+  margin-top: 10vh;
 }
 
-.imageForSteps{
+.imageForSteps {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 1vw;
   flex-wrap: wrap;
 }
 
-.imageSteps{
-  width: 1200px;
-  border-radius: 10px;
+.imageSteps {
+  width: 80vw;
+  border-radius: 1vw;
 }
 
 /*login page*/
-.Title.Login{
-  margin-top: 5rem;
+.Title.Login {
+  margin-top: 10vh;
 }
 
-.imageForWork{
+.imageForWork {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 1vw;
   flex-wrap: wrap;
 }
 
-.imageLogin{
-  width: 1200px;
-  border-radius: 10px;
+.imageLogin {
+  width: 80vw;
+  border-radius: 1vw;
 }
 
-
-.buttonsToTry{
+.buttonsToTry {
   display: flex;
   justify-content: center;
 }
-.buttonsToTry a{
-  margin-top: 8rem;
+
+.buttonsToTry a {
+  margin-top: 16vh;
   background-color: #04c62b;
   border: none;
   color: #fff;
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
+  padding: 1vh 2vw;
+  border-radius: 2vw;
   cursor: pointer;
   font-size: 1rem;
-  margin-bottom: 2rem;
-  margin-right: 10px;
+  margin-bottom: 4vh;
+  margin-right: 1vw;
   text-decoration: none;
 }
-.buttonsToTry a:hover{
+
+.buttonsToTry a:hover {
   background-color: #039e22;
-  transform: translateY(-5px);
+  transform: translateY(-0.5vh);
   transition: 500ms;
 }
